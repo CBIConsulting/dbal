@@ -845,6 +845,6 @@ class Table extends AbstractAsset
      */
     private function normalizeIdentifier($identifier)
     {
-        return $this->trimQuotes(strtolower($identifier));
+        return $this->trimQuotes($identifier);
     }
 }
